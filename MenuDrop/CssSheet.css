@@ -41,7 +41,7 @@
 	#dropdown ul li:hover a{
 		background-color:blue;
 	}
-	#dropdown ul li a:hover{		
+	#dropdown ul li:hover>a{		
 		background-color: orange;
 		color:black;
 	}
@@ -60,13 +60,10 @@
 	#dropdown ul li ul li:hover ul li{
 		visibility:visible;	
 	}
-	#dropdown ul li ul li:hover ul li a{
-		background-color: orange;
-		color: black;
-	}
+	
 	#dropdown ul li ul li ul li a:hover{
-		background-color:blue;
-		color:white;
+		background-color:orange;
+		color:black;
 	}
 	#footer{
 		text-align: center;
