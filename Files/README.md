@@ -1,9 +1,2 @@
-Hello this is my read me test
-
-
-
-
-Test 
-1
-2
-3
+The Fitness tracker should first ask you the users current weight and other physical information opon signing up.
+It should 
