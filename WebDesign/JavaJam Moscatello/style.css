@@ -1,0 +1,35 @@
+#nav{
+	text-align:center;
+	color:#330000;
+}
+#h1{
+	background-color:#ccaa66;
+	width:700px;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:Arial;
+	line-height: 200%;
+}
+#body{
+	background-color:#ffffcc;
+	font-family:Arial;	
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#330000;
+}
+#footer{
+	font-family:Arial;
+	font-style:italic;
+	font-size:small;
+	text-align:center;
+	background-color:#ccaa66;
+	width:700px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height:200%;
+}
+#head{
+	text-align:center;
+}
