@@ -83,11 +83,22 @@
 	#p1{
 		padding:30px;
 		margin:30px;
-		background-color: navy;
+		background-color:white;
+		
 		
 	}
 	#p1 a{
 		
 		color:orange;
 	}
-
+	#img {
+		padding:10px;
+		border-color:gray;
+	}
+	#form{
+		width:1400px;
+		height:1000px;
+		margin-left: auto;	
+		margin-right:auto;
+		background-color:white;
+	}
