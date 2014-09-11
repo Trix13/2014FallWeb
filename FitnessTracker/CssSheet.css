@@ -102,3 +102,20 @@
 		margin-right:auto;
 		background-color:white;
 	}
+	#img {
+		border-color:gray;
+		border-style:solid;
+		border-width: 2;
+	}
+	#interior{
+		padding: 20px 20px 60px 40px;
+	}
+	#pictxt{
+		font-size:25px;
+	}
+	#surrond{
+		width:1300px;
+		height:220px;
+		background-color:blue;
+		padding:10px;
+	}
