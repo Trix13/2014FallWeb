@@ -31,8 +31,10 @@
 			        		<li class="dropdown">
 			          			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span></a>
 			          			<ul class="dropdown-menu" role="menu">
-			            			<li><a href="#">Account</a></li>
-			            			<li><a href="#">Privacy Policy</a></li>
+			            			<li><a href="account.html">Account</a></li>
+			            			<li><a href="privacypolicy.html">Privacy Policy</a></li>
+			            			<li class="divider"></li>
+			            			<li><a href="logout.html">Logout</a></li>
 			          			</ul>
 			        		</li>
 			      		</ul>
@@ -40,21 +42,43 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
+		<div class="container">	
+			<div class="col-xs-5"><p>Hello Frank Moscatello!</p></div>
+		</div>
 		<div class="container">
 			<div  class="col-xs-2">
 				<img src="http://www.iprime.gr/upload/members/man.jpg" alt="50x50" class="img-thumbnail">
 			</div>
 			<div  class="col-xs-10">
-				<h3> What have you done today?</h3>
-				<p>Please feel free to enter the calories and activities you have done today. We won't tell anyone! :)</p>
+				<h3>Hello, what have you done today?</h3>
+				<p>Enter your calories/workout today.</p>
+				<!-- Single button -->
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Workout <span class="caret"></span></button>
+				<ul class="dropdown-menu" role="menu">
+				    <li><a href="#">Running</a></li>
+				    <li><a href="#">Lifting</a></li>
+				    <li><a href="#">Core</a></li>
+				    <li class="divider"></li>
+				    <li><a href="#">Other</a></li>
+				</ul>
 			</div>
-			
+			<div class="btn-group">
+					<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Calories <span class="caret"></span></button>
+				  		<ul class="dropdown-menu" role="menu">
+						    <li><a href="#">Eaten Today</a></li>
+						 	<li><a href="#">Eaten Yesterday</a></li>
+						    <li class="divider"></li>
+						    <li><a href="#">Other</a></li>
+				  		</ul>
+			</div>	
 		</div>
 		<div class="container">
 			<div  class="col-md-2">
-				<h3> Hello</h3>
-				<p>Please feel free to enter the calories and activities you have done today. We won't tell anyone! :)</p>
+				<h3> News</h3>
+				<p>See what other types of workout are happening today <a href="https://www.google.com/?gws_rd=ssl#q=new+workouts">Google.com</a></p>
 			</div>
+		</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
