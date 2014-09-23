@@ -6,12 +6,14 @@
 }
 #img{
 	float:left;
+	padding-bottom: 30px;
 }
-#twitter{
-	margin-right:auto;
-	margin-left:auto;
-	width:50%;	
-}
+
 #background{
 	background-color:#F8F8F8;
+}
+#twitter-widget-0{
+	float:auto;
+ 	width: 100% !important;  
+ 	height: 500px !important;
 }
