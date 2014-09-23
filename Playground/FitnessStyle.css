@@ -1,0 +1,25 @@
+#button{
+	float:right;
+	padding-top:15px;
+}
+#img{
+	float:left;
+	padding-bottom: 30px;
+	padding-top:15px;
+}
+
+#background{
+	background-color:#F8F8F8;
+}
+#twitter-widget-0{
+	float:auto;
+ 	width: 100% !important;  
+ 
+}
+#footer{
+	text-align:center;
+	background-color:#F8F8F8;
+	font:italic;
+	font:small;
+	padding-top:30px;	
+}
