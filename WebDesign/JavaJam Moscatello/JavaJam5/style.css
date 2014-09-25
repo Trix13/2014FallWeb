@@ -15,7 +15,7 @@
 #nav ul{
 	list-style-type:none;
 }
-#nav li{
+#nav ul a{
 		text-decoration: none;
 		color:#996633;
 }
@@ -23,13 +23,15 @@
 		text-decoration: none;
 		color:#330000;
 }
-#nav li a:visited{
+#nav  ul li a:visited{
 	color:#CCAA66;
 }
-#nav li a:unvisited{
+#nav ul li a:unvisited{
 	color:#996633;
 }
-
+#nav  ul li a:visited:hover{
+	color:#330000;
+}
 
 
 
@@ -46,22 +48,21 @@
 	background-image:url(0103pictures/background.gif);
 	background-repeat:repeat;
 	font-family:Arial;	
-	width:700px;
+	width:850px;
 	margin-left:auto;
 	margin-right:auto;
 	color:#330000;
 }
 #footer{
-	font-family:Arial;
-	font-style:italic;
-	font-size:small;
+	size: small;
 	text-align:center;
-	background-color:#ccaa66;
-	width:700px;
-	margin-left: auto;
-	margin-right: auto;
-	line-height:200%;
-	padding: 30px 0px 30px 0px;
+	width:900px;
+	padding: 10px 0px 10px 0px;
+	background-color:#CCAA66;
+	box-shadow: 5px 5px 5px #888888;
+}
+#footer a{
+	color:#F2EAB7;
 }
 #head{
 	text-align:center;
@@ -71,18 +72,23 @@
 }
 #wrap{
 	background-color:#ffffcc;
-	padding: 0px 0px 10px 0px;
+	width:900px;
+	box-shadow: 5px 6px 5px #888888;
 }
-#wrapper { width: 80%;
+#wrapper { 
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
-#leftcolumn { float: left;
-    width: 150px;
+#leftcolumn { 
+	float: left;
+    width: 100px;
+    text-align:center;
+    padding: 10px 0px 10px 0px;
 }
 #rightcolumn { 
 	margin-left: 155px;
-	padding: 10px 20px 30px 20px;
+	padding: 10px 20px 80px 20px;
 	margin-left:150px;
 	background-color: #F2EAB7;
 	color:#000000;
@@ -102,4 +108,16 @@
 #img{
 	float:right;
 	padding-left: 20px;
+}
+#Greg{
+	float:left;
+	padding-left:100px;	
+	padding-right:20px;
+	padding-bottom:20px;
+}
+#Mel{
+	float:left;
+	padding-left:100px;
+	padding-right:20px;
+	padding-bottom:20px;
 }
