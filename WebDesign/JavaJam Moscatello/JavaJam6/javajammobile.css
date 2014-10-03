@@ -1,0 +1,69 @@
+#body{
+	padding:0;
+	margin:0;
+	margin-right:0;
+	width:100%;
+	min-width:0;
+	background-color:#FFFFFF;
+	background-image:none;
+}
+#header{
+	text-align:left;
+	background-image:url(img src="0103pictures/javalogo.gif);
+	repeat:none; 
+	background-position:center;
+	background-repeat:none;
+	height:80px;
+}
+#h1{
+	margin:0;
+	text-indent:-99999px;
+}
+#nav {
+	float:none;
+	width:100%;
+	padding-top:0;
+	margin-top:0;
+}
+#nav ul li a{
+	display:block;
+	padding:0.2em;
+	font-size:1.3em;
+	font-weight:bold;
+	border-bottom: 1px;
+	border-color: #330000;
+}
+#nav ul li a{
+	padding:0;
+	margin:0;
+	padding-bottom:0.2em;
+}
+#content{
+	padding:0.5em;
+	margin:0;
+}
+#h2{
+	padding: 0.5em 0 0 0.5em;
+	margin-right:0.5em;
+}
+#details{
+	padding-left: 0;
+	padding-right: 0;
+}
+#rightcolumn{
+	display:none;
+}
+#leftcolumn{
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+#footer{
+	padding-bottom: 0;
+	padding-top:0;
+}
+#mobile{
+	display:inline;
+}
+#desktop{
+	display:none;
+}
