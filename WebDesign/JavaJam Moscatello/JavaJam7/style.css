@@ -80,7 +80,7 @@ h2{
 	padding: 0px 0px 0px 0px;
 	box-shadow: 5px 5px 5px ;
 }
-#details{
+details{
 	padding-right:20%;
 	padding-left:20%;
 	border: none;
@@ -93,7 +93,7 @@ h2{
 	
 }
 
-#rightcolumn { 
+#floatright { 
 	margin-left: 155px;
 	padding: 10px 20px 80px 20px;
 	margin-left:150px;
