@@ -32,7 +32,10 @@
 #nav  ul li a:visited:hover{
 	color:#330000;
 }
-
+h1{
+	margin:0;
+	text-indent:-99999px;
+}
 h2{
 	text-transform:uppercase;
 	background-color:#FFFFCC;
@@ -88,7 +91,11 @@ details{
 #header{
 	background-color:#CCAA66;
 	color:#000000;
-	text-align:center;
+	background-image: url(0103pictures/javalogo.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:left;
+	height:100px;
 	margin:0;
 	
 }
@@ -99,4 +106,10 @@ details{
 	margin-left:150px;
 	background-color: #F2EAB7;
 	color:#000000;
+}
+#mobile{
+	display:none;
+}
+#desktop{
+	display:inline;
 }
