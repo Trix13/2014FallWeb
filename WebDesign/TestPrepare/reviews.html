@@ -3,18 +3,49 @@
 	<head>
 		<title>Tina's Location</title>	
 		<style> @import "style.css";</style>
+		<meta charset="utf-8">
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="https://css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
+		<header>
+			<nav class="navbar navbar-default" role="navigation">
+			  	<div class="container">
+			    	<div class="navbar-header">
+			      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+			      		</button>
+			      		<a class="navbar-brand" href="index.html">Tina's Pizza</a>
+			    	</div>
+			    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+				      		<li><a href="menu.html">Menu</a></li>
+				      		<li><a href="location.html">Location</a></li>
+				        </ul>
+						<ul class="nav navbar-nav navbar-right">
+			        		<li class="dropdown">
+			          			<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Infor <span class="caret"></span></a>
+			          			<ul class="dropdown-menu" role="menu">
+						        	<li><a href="home.html">Home</a></li>
+			            			<li><a href="menu.html">Menu</a></li>
+			            			<li><a href="aboutus.html">About Us</a></li>
+			            			<li class="divider"></li>
+			            			<li><a href="location.html">Location</a></li>
+			            			<li><a href="reviews.html">Reviews</a></li>
+			          			</ul>
+			        		</li>
+			      		</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</header>
 		<div id="content">
-			<div id="nav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="menu.html">Menu</a></li>
-					<li><a href="aboutus.html">About Us</a></li>
-					<li><a href="location.html">Location</a></li>	
-					<li id="list"><a href="reviews.html">Social Media</a></li>
-				</ul>
-			</div>
 			<div id="inside">
 				<h1>Review us on Yelp!</h1>
 				<div id="around_map">
@@ -30,14 +61,16 @@
 		</div>
 	</body>
 	<footer id="footer">&copy; Copyright of Tina's Pizza Cafe and Resturant</footer>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		<script type="text/javascript">
-				window.twttr = (function (d, s, id) {
-				var t, js, fjs = d.getElementsByTagName(s)[0];
-			  	if (d.getElementById(id)) return;
-			  	js = d.createElement(s); js.id = id; js.src= "https://platform.twitter.com/widgets.js";
-			  	fjs.parentNode.insertBefore(js, fjs);
-			  	return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-				}(document, "script", "twitter-wjs"));
-		</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>	
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<script type="text/javascript">
+		window.twttr = (function (d, s, id) {
+		var t, js, fjs = d.getElementsByTagName(s)[0];
+	  	if (d.getElementById(id)) return;
+	  	js = d.createElement(s); js.id = id; js.src= "https://platform.twitter.com/widgets.js";
+	  	fjs.parentNode.insertBefore(js, fjs);
+	  	return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+		}(document, "script", "twitter-wjs"));
+	</script>
 </html>
