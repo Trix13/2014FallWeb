@@ -14,6 +14,7 @@
 	<body>
 			<? include __DIR__.'/nav.html'; ?>
 			<? include __DIR__."/../$veiw"; ?>
+			
 		<footer>
 			<div class="container" id="footer">
 				 <p>Copyright &copy; of Frank Moscatello and Fitness Website</p>	
