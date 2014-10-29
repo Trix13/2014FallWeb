@@ -12,15 +12,13 @@
 		<link href="https://css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="top-nav">
-			<? include __DIR__.'/../../nav.html'; ?>
-		</div>
+			<? include __DIR__.'/nav.html'; ?>
+			<? include __DIR__."/../$veiw"; ?>
 		<footer>
 			<div class="container" id="footer">
 				 <p>Copyright &copy; of Frank Moscatello and Fitness Website</p>	
 			</div>
 		</footer>
-		</nav>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>		
 	</body>
