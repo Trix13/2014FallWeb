@@ -21,11 +21,11 @@
 	</div>
 	<div class="container">	
 		<p></p>
-		<p><a href="home.html" class="btn btn-primary btn-lg" role="button">Log in!</a></p>
+		<p><a href="../Controllers/home.php" class="btn btn-primary btn-lg" role="button">Log in!</a></p>
 		<h4>Not a part of Fitness? Sign up now!</h4>
 		<div class="container">
 			<div class="col-xs-12">				
-				<p><a href="createaccount.html" class="btn btn-primary btn-lg" role="button">Create Account</a></p>
+				<p><a href="../Controllers/createaccount.php" class="btn btn-primary btn-lg" role="button">Create Account</a></p>
 			</div>			
 		</div>
 	</div>

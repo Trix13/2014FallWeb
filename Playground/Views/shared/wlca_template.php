@@ -12,8 +12,7 @@
 		<link href="https://css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
-			<? include __DIR__.'/nav.html'; ?>
-			<? include __DIR__."/../$veiw"; ?>
+			<div ><? include __DIR__."/../$veiw"; ?></div>
 			
 		<footer>
 			<div class="container" id="footer">

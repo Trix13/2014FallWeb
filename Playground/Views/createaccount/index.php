@@ -103,7 +103,7 @@
 				
 				</div>
 			</div>
-			<div align="center"><p><a href="home.html" class="btn btn-primary btn-lg" role="button">Finish & Create Account!</a></p></div>
+			<div align="center"><p><a href="../Controllers/home.php" class="btn btn-primary btn-lg" role="button">Finish & Create Account!</a></p></div>
 		</div>
 			
 		</div><!-- End of the Container -->
