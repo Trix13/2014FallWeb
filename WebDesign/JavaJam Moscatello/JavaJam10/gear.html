@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<title>JavaJam Coffee House</title>
+<html>
+<head>
+	<style> @import "style.css";</style>
+	<style>@import "javajammobile.css";</style>
+	<meta  name="viewport" content="width=width-device, initia-scale=1.0" />
+</head>
+<body id="body">
+	<div id="wrapper">
+		<h1 id="header">JavaJam Coffee House Gear</h1>
+		<div id="nav">
+			<ul>
+				<li><a href="index.html"> Home</a></li>
+				<li><a href="menu.html"> Menu</a></li>
+				<li><a href="music.html"> Music</a></li>
+				<li><a href="job.html"> Jobs</a></li>
+				<li><a href="gear.html"> Gear</a></li>
+			</ul>
+		</div>	
+		<div id="floatright" id="content">
+			<p>JavaJam gear not only looks good, it's good to your wallet too.</p>
+			<br />
+			<p>Get a 10% discount when you wear a JavaJam shirt or bring in your JavaJam mug!</p>
+			<br/>
+			<h2>JAVAJAM GEAR</h2>
+			<img id="shirt" src="0103pictures/javashirt.jpg" />
+			<p>JavaJam shirts are comfotable to wear to school and around town. 100% cotton. XL only. $14.95</p>
+			<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+				<input type="hidden" name="desc1" id="desc1" value="JavaJam Shirt" />
+				<input type="hidden" name="cost1" id="cost1" value="14.95"/>
+				<input type="submit" value="Add to Cart" />
+			</form>
+			<br class="clearright"/>
+			<img id="mug" src="0103pictures/javamug.jpg" />
+			<p>JavaJam mugs carry a full load of caffeine (12oz) to jump-start your morning. $9.95</p>
+			<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+				<input type="hidden" name="desc2" id="desc2" value="JavaJam Mug" />
+				<input type="hidden" name="cost2" id="cost2" value="9.95"/>
+				<input type="submit" value="Add to Cart" />
+			</form>	
+			<br/>	
+		</div>
+	</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="http://wwwwebdevfoundations.net/scripts/cart.asp"></script>
+</body>
+
+<footer id="footer">
+	<p>Copyright &copy; 2013 JavaJam Coffee House <a href="#">fjsmoscatello13@aim.com</a></p>
+</footer>
+</html>
