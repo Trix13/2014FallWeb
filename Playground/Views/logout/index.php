@@ -1,3 +1,4 @@
+<title>Logout</title>
 	<div class="jumbotron">
   		<h1>You are now logged out!</h1>
   		<p>See you soon and Stay Healthy!</p>

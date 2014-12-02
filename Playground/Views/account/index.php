@@ -1,3 +1,4 @@
+<title>Account</title>
 <div class="container">
 			<div class="col-xs-6">
 				<h4>Change Name</h4>

@@ -1,3 +1,4 @@
+<title>Home</title>
 <div class="container" id="background"> <!-- INFORMATION -->
 	<div>
 		<div id="img"  class="col-xs-3"><img src="../Content/images/images.jpg" class="img-thumbnail" ></div>

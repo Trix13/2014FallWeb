@@ -1,3 +1,4 @@
+<title>Welcome to Fitness!</title>
 <header>
 		<div class="jumbotron">
   			<h1>Welcome to Fitness!</h1>

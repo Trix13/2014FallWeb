@@ -1,3 +1,4 @@
+<title>Create an Account</title>
 <div class="container">
 			<div class"col-xm-6">
 				<h2>Create Your Account</h2>

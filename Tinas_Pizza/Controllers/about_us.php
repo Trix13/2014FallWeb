@@ -2,5 +2,5 @@
 
 ini_set("display_errors", 1);
 
-$veiw = "food/index.php";
+$veiw = "about_us/index.php";
 include __DIR__ . '/../Views/shared/template.php';

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <Html>
 	<head>
-		<style> @import "../Content/FitnessStyle.css";</style>
+		<style> @import "../Content/style.css";</style>
 		
 		<meta charset="utf-8">
    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,11 +13,10 @@
 	<body>
 			<div><? include __DIR__.'/nav.html'; ?></div>
 			<div class="container"><? include __DIR__."/../$veiw"; ?></div>
-			<br />
+			
 		<footer>
-			<div  id="footer">
-				 <p>Copyright &copy; of Frank Moscatello and Fitness Website</p>	
-				<br />
+			<div class="container" id="footer">
+				 <p>Copyright &copy; of Tina's Pizza since 1985</p>	
 			</div>
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

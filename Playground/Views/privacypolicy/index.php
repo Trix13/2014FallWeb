@@ -1,3 +1,4 @@
+<title>Privacy Policy</title>
 <div class="container">
 	<h1>We're Serious about your Privacy</h1>
 	<p>Fitness does not use you personal workout data for anything other than storing in our servers. Everything you input is not seen by anyone but 
