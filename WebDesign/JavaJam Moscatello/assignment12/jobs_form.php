@@ -18,7 +18,7 @@
 		<div id="floatright" id="content">
 			<?php
 				date_default_timezone_set("America/New_York");
-				echo "Thank you,".$_POST['myName']."<br>";
+				echo "Thank you, ".$_POST['myName']. ",". "<br>";
 				echo "We will be contacting you by this address ".$_POST['myEmail']."<br>";
 				echo "Recieved on ".date("Y-m-d h:i");
 			?>
