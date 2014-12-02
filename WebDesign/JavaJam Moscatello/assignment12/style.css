@@ -1,0 +1,141 @@
+#nav{
+	float:left;
+	text-align:center;
+	color:#330000;
+	width:100px;
+	padding-top: 10px;
+}
+#nav ul li a{	
+	padding-bottom:15px;
+	text-decoration: none;
+}
+#nav ul li a:link{
+	color:#996633;
+}
+#nav ul{
+	list-style-type:none;
+}
+#nav ul a{
+		text-decoration: none;
+		color:#996633;
+}
+#nav ul li a:hover{
+		text-decoration: none;
+		color:#330000;
+}
+#nav  ul li a:visited{
+	color:#CCAA66;
+}
+#nav ul li a:unvisited{
+	color:#996633;
+}
+#nav  ul li a:visited:hover{
+	color:#330000;
+}
+h1{
+	margin:0;
+	text-indent:-99999px;
+}
+h2{
+	text-transform:uppercase;
+	background-color:#FFFFCC;
+	font-size:1.2em;
+	border-bottom:1px solid #000000;
+	padding: 5px 0 0 5px;
+	margin-right:20px;
+	clear:left;
+}
+#img{
+	float: right;
+	padding-left:20px;
+	padding-top:20px;
+}
+#body{
+	background-image:url(0103pictures/background.gif);
+	background-repeat:repeat;
+	font-family:Arial;	
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#330000;
+}
+#footer{
+	font-family:Arial;
+	font-style:italic;
+	font-size:small;
+	text-align:center;
+	background-color:#ccaa66;
+	width:700px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height:200%;
+	padding: 10px 0px 10px 0px;
+	box-shadow: 5px 5px 5px ;	
+}
+#head{
+	text-align:center;
+}
+#content{
+	padding:20px;
+}
+#wrapper{
+	background-color:#ffffcc;
+	padding: 0px 0px 0px 0px;
+	box-shadow: 5px 5px 5px ;
+}
+details{
+	padding-right:20%;
+	padding-left:20%;
+	border: none;
+}
+#header{
+	background-color:#CCAA66;
+	color:#000000;
+	background-image: url(0103pictures/javalogo.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:left;
+	height:100px;
+	margin:0;
+	
+}
+
+#floatright { 
+	margin-left: 155px;
+	padding: 10px 20px 80px 20px;
+	margin-left:150px;
+	background-color: #F2EAB7;
+	color:#000000;
+}
+#mobile{
+	display:none;
+}
+#desktop{
+	display:inline;
+}
+table, th, td{
+	border-collapse:collapse;
+	border-style:solid;
+	border-color: #F2EAB7;
+	padding:10px;
+}
+tr:nth-of-type(odd){
+	background-color:#CCAA66;
+}
+label{
+	float:left;
+	display:block;
+	text-align:right;
+	width:120px;
+	padding-right:10px;
+}
+input{
+	display:block;
+	margin-bottom:20px;
+}
+textarea{
+	display:block;
+	margin-bottom:20px;
+	max-width: 300px;
+	max-height:150px;
+}

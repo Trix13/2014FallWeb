@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<title>Success</title>
+<title>Javajam Coffee House Jobs</title>
 <html>
 <head>
 	<style> @import "style.css";</style>
@@ -16,12 +16,16 @@
 			</ul>
 		</div>	
 		<div id="floatright" id="content">
-			<?php
-				date_default_timezone_set("America/New_York");
-				echo "Thank you,".$_POST['myName']."<br>";
-				echo "We will be contacting you by this address ".$_POST['myEmail']."<br>";
-				echo "Recieved on ".date("Y-m-d h:i");
-			?>
+			<form method="post" action="jobs_form.php">
+				<p>Want to work at JavaJam Coffee House? Fill out the form below to start your application</p>
+				<label>Name:</label> 
+				<input type="text" name="myName">
+				<label>Email:</label>
+				<input type="email" name="myEmail">
+				<label>Experience</label>
+				<textarea> </textarea>
+				<input type="submit" value="Apply Now" >
+			</form>
 		</div>
 	</div>
 </body>
